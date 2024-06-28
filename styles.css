@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #eee;
+    background-color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 22px;
+    padding: 10px;
+}
+
+form {
+    background-color: transparent;
+    padding: 20px 0;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 55px #fff2;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.img-python {
+    width: 300px;
+    height: 200px;
+}
+.form_input {
+    padding: 6px 20px;
+}
+
+input, textarea, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: none;
+    border: 1px solid #666;
+    box-shadow: 0 0 15px #0001;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #eee;
+
+}
+
+option {
+    background-color: #222;
+}
+
+textarea {
+    min-width: 100%;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 200px;
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 0.88em;
+    line-height: 2;
+}
